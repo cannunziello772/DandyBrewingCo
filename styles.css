@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-bottom: 100px;
 }
 
 .splash-area{
@@ -35,12 +36,17 @@ main{
 header{
     position: fixed;
     top: 25%;
+    left: 20px;
     z-index: 1;
     width: 25%;
     display: none;
     /*
     transition-property: display;
     transition: ease-in-out;*/
+  }
+
+  .octlogo{
+      width: 50px;
   }
   
 .anchor{

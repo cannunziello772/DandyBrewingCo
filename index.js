@@ -18,6 +18,11 @@ function scrollFunction() {
   }
 }
 
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 // When the user scrolls the page, execute myFunction
 //window.onscroll = function() {myFunction()};
 
